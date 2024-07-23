@@ -274,10 +274,10 @@ a {
 }
 
 .fourth-section-list {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
 }
 
-.fourth-section-container {
+.fourth-section-wrapper {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -309,6 +309,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /* Footer Section */
